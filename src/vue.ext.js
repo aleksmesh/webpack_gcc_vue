@@ -6,6 +6,17 @@ var parent = {};
 var CollectGarbage = function(){};
 var localStorage = {};
 
+var levels = {
+  "TRACE": {},
+  "DEBUG": {},
+  "INFO": {},
+  "WARN": {},
+  "ERROR": {},
+  "SILENT": {}
+};
+
+var toASCII = function() {};
+
 var Testapp ={
   "jopa": {}
 };
@@ -18,7 +29,19 @@ var Testapp ={
 //  "proxyGetter": {},
 //  "_data": {},
 //};
+
+var __VUE_SSR_CONTEXT__ = {};
+var WXEnvironment = {};
+
 var Vue = {
+  "activate": {},
+  "create": {},
+  "destroy": {},
+  "remove": {},
+  "update": {},
+  "onOpen": {},
+  "onClose": {},
+  "onMessage": {},
   "cid": {},
   "compile": function () {},
   "component": function () {},
